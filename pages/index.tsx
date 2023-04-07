@@ -3,6 +3,7 @@ import { useState } from 'react'
 import styles from '../styles/Home.module.css'
 import AddressForm from '../components/AddressForm'
 import * as Web3 from '@solana/web3.js'
+import Head from 'next/head'
 
 const Home: NextPage = () => {
   const [balance, setBalance] = useState(0)
